@@ -1,4 +1,4 @@
-package terrafrom.policies.friday_deploys
+package terraform.policies.friday_deploys
 
 deny[msg] {
   time.weekday(time.now_ns()) == "Friday"
